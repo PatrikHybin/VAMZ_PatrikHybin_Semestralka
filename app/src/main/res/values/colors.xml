@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="bootomAppBar">#8FC35B</color>
+    <color name="lightgrey">#FFCCCCCC</color>
+    <color name="black">#000000</color>
+    <color name="mainText">#FFFFFFFF</color>
+    <color name="bottombar">#1A75C6</color>
+    <color name="light_grey">#505457</color>
+    <color name="button_info">#49D7DA</color>
+</resources>

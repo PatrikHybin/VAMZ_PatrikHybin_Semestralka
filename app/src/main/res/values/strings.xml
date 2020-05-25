@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Nakupny Zoznam</string>
+    <string name="shop_name">Shop name</string>
+    <string name="count_item">count_item</string>
+    <string name="count_number" />
+    <string name="add_item">Add Item</string>
+    <string name="menu" />
+    <string name="buySelected" />
+    <string name="HighlightAppButton">Highlight</string>
+    <string name="SortAppButton">Sort</string>
+    <string name="textview">TextView</string>
+    <string name="buy">Buy</string>
+    <string name="shop_name_hint">shop name</string>
+    <string name="count_hint">count</string>
+    <string name="item_name_hint">Item name</string>
+    <string name="search">Search</string>
+    <string name="set_date">Set date</string>
+    <string name="enter_info_about_item">Enter info about item</string>
+    <string name="todo">TODO</string>
+    <string name="Item_Name" />
+    <string name="item_name" />
+    <string name="item_count" />
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="quantity_hint" />
+    <string name="back_button" />
+    <string name="take_picture">Take picture</string>
+    <string name="insert_qty">Insert QTY</string>
+    <string name="input_item_quantity_to_buy">Input item quantity to buy</string>
+    <string name="quantity">Quantity</string>
+</resources>

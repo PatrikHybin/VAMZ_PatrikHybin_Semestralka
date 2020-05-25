@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background"
+        android:fillViewport="true">
+
+
+        <Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            android:background="@drawable/gradient_toolbar"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme">
+
+            <androidx.appcompat.widget.SearchView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/search_view_id"
+                android:icon="@drawable/ic_search_black_24dp"
+                android:title="@string/search"
+                app:showAsAction="always"
+                android:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+        </Toolbar>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle_view_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:layout_marginTop="3dp"
+            tools:listitem="@layout/cardview_item">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </RelativeLayout>
+
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottom_app_bar"
+        style="@style/Widget.MaterialComponents.BottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        app:backgroundTint="@color/bootomAppBar"
+        app:hideOnScroll="true"
+        app:fabCradleMargin="10dp"
+        app:menu="@menu/app_bar_menu"
+        app:navigationIcon="@drawable/buy_vector_draw"
+        tools:ignore="BottomAppBar" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_item_to_list_button_id"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:overScrollMode="ifContentScrolls"
+        app:fabCradleMargin="5dp"
+        android:layout_gravity="center"
+        app:rippleColor="@color/yellow"
+        android:layout_marginBottom="-50dp"
+        android:paddingBottom="30dp"
+        app:fabCustomSize="60dp"
+        app:layout_anchor="@id/bottom_app_bar"
+        app:srcCompat="@android:drawable/ic_input_add">
+
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
